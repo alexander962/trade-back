@@ -10,7 +10,7 @@ const apiRoutes = require('./module/routes/user-routes.js');
 
 app.use(cors());
 
-app.use(parser.json);
+app.use(parser.json());
 
 const uri =
     'mongodb+srv://Alexander:1488sasha@userstrade.o3krr.mongodb.net/myFirstDatabase?retryWrites=true&w=majority';
